@@ -1,6 +1,6 @@
 <template>
-    <div class="register-div">
-        <div class="register">
+    <div class="register-div row justify-content-center">
+        <div class="register col-md-6 col-11">
             <form action="" class="form-div">
                 <div class="row py-2">
                     <div class="form-group col-6">
@@ -169,14 +169,16 @@ export default {
 </script>
 <style scoped>
 .register-div{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 90vh; */
+    margin-top: 5%;
+
 }
 
 .register{
-    width: 50%;
+    /* width: 50%; */
     background-color: #094074;
     padding: 2% 2%;
 }

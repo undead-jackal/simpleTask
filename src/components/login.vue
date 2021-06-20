@@ -1,6 +1,6 @@
 <template>
-    <div class="login-div">
-        <div class="login">
+    <div class="login-div row justify-content-center">
+        <div class="login col-md-5 col-11">
             <form action="" class="form-div">
                 <div class="form-group">
                     <label for="">Username</label>
@@ -110,14 +110,15 @@ export default {
 </script>
 <style scoped>
 .login-div{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    height: 90vh;
+    align-items: center; */
+    /* height: 90vh; */
+    margin-top: 5%;
 }
 
 .login{
-    width: 30%;
+    /* width: 30%; */
     background-color: #094074;
     padding: 4%;
 }

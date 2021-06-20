@@ -6,6 +6,7 @@
                     <h4 class="whiteText">Projects</h4>
                 </div>
                 <div class="col-9 text-end inp">
+                    <a class="btn btn-sm btn btn-outline-light margLeft10" href="https://github.com/undead-jackal/simpleTask.git"> View source on Github</a>
                     <button @click="openCreateModal" class="btn btn-sm btn btn-outline-light margLeft10">Create Project </button>
                     <button @click="logout"  class="btn btn-sm btn btn-outline-light margLeft10">Logout</button>
 
